@@ -21,7 +21,7 @@
   }
   
   .btn-secondary {
-    background-color: #3c02f9;
+    background-color: #02a2f973;
     color: whitesmoke;
   }
   
@@ -39,18 +39,22 @@
   }
   
   body {
-    background-color: rgb(213, 212, 212);
+    background-color: rgb(6, 5, 5);
     font-family: Trebuchet MS, Arial, sans-serif;
     line-height: 1;
   }
-  
-  img {
+  .backDrop {
+    border-radius: 0%;
+    width: 100%;
+
+  }
+  .headShot {
     border-radius: 50%;
     height: 32.5em;
     margin-left: 12em;
     
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -59,12 +63,16 @@
     background-color: #191d19;
     color: white;
     height: 600px;
+    
   }
   
   .hero nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-decoration: rgb(89, 153, 167) dotted underline;
+    
+    
   }
   
   .hero nav ul {
